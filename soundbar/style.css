@@ -1,0 +1,25 @@
+body{
+    background-color: #a164df ;
+    margin: 0;
+}
+.container{
+    display: flex;
+    height: 100vh;
+    width: 100vw;
+    justify-content: center;
+    align-items: center;
+}
+.btn{
+    padding:1rem 2rem ;
+    background-color: #663399    ;
+    font-size: 1.5rem;
+    border: none;
+    outline: none;
+    margin-right: 2rem;
+    border-radius: .3rem;
+    color: white;
+    cursor: pointer;
+}
+.btn:hover{
+    opacity: .9;
+}

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>arithmatic operator</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+</head>
+<body class="d-flex flex-column justify-content-center align-items-center bg-danger">
+    <section class="full-h container-fluid  py-5 d-flex flex-column flex- justify-content-center align-items-center bg-secondary">
+        <div class="row w-100">
+            <input class="col m-3 container pb-5 bg-light w-50 d-inline" type="number" name="" id="num1" placeholder="Enter number 1">
+            <select class="col w-25 m-5" name="operator" id="operator">
+                <option value="+">+</option>
+                <option value="-">-</option>
+                <option value="*">*</option>
+                <option value="/">/</option>
+            </select>
+            <input class="col container pb-5 bg-light w-50 m-3" type="number" name="" id="num2" placeholder="Enter number 2">
+            <button class="col m-5" value="=" onclick="calculateResult()">=</button>
+            <p id="result"></p>
+        </div>
+        <br>
+        <br>
+        <div>
+            <button id="changebtn" onclick="changeText()">Change Text</button>
+            <p>Hello</p>
+            <p>welcome</p>
+            <p>to</p>
+            <p>my</p>
+            <p>class</p>
+        </div>
+    </section>
+    
+
+    <script src="index.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+</body>
+</html>
